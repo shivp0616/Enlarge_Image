@@ -1,5 +1,4 @@
-#resizing without pixelate
-
+#importing PIL library
 from PIL import Image
 large_size = (1920, 1200)
 
