@@ -23,5 +23,5 @@ else:
 #resizing the image
 imaged = im.resize((final_width, final_height), Image.ANTIALIAS) 
 
-imaged.show()       #to view rthe image
+imaged.show()       #to view the enlarged image
 imaged.save("yourModifiedImage", quality=100) #saves the image
