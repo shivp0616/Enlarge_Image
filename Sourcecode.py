@@ -1,8 +1,11 @@
 #importing PIL library
 from PIL import Image
+
+#setting the dimentions for the image
 large_size = (1920, 1200)
 
-im = Image.open("yourImageHere") #your image here
+#importing the image that we want to enlarge
+im = Image.open("yourImageHere") #your image path here
 
 image_w, image_h = im.size
 aspect_ratio = image_w / float(image_h)
